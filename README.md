@@ -1,43 +1,61 @@
 # Web Development Projects 🌐
 
-This repository features my **frontend** and **backend** web development projects using HTML, CSS, JavaScript, and Spring Boot. These projects reflect my hands-on learning and exploration of web technologies.
+This repository showcases my **frontend** and **backend** web development projects using HTML, CSS, JavaScript, JSP, and Spring Boot. Each project reflects my learning in building responsive interfaces and dynamic web applications.
 
 ---
 
-## 💻 Frontend Projects
+## 💻 Frontend Projects (HTML, CSS, JavaScript)
 
 ### 🎯 Number Guessing Game
-A simple game where users guess a randomly generated number. Includes:
+A simple guessing game with:
 - Input validation
-- Real-time feedback
 - Score tracking
+- Interactive UI
 
 ### 🕒 Analog Clock
-Live analog clock built using:
+Real-time analog clock using:
+- JavaScript `Date`
 - CSS transforms
-- JavaScript `Date` object
 
 ### 🛍️ Myntra Clone
-A static frontend of Myntra's homepage:
-- Responsive layout
-- Styled product cards
-- Clean UI using HTML & CSS
+A responsive clone of the Myntra homepage:
+- Product cards & categories
+- Clean CSS layout
+
+---
+
+## 🌐 JSP Projects
+
+### 🔐 User Login & Registration System
+Basic authentication system built with **JSP, Servlets, and JDBC**:
+- User registration with form validation
+- Login with credential checking
+- MySQL database integration
+
+**Tech Stack:**
+- JSP, HTML, CSS
+- Servlets, JDBC
+- MySQL Database
+- Apache Tomcat
+
+> A classic web app demonstrating form handling, session management, and JDBC connectivity.
 
 ---
 
 ## 🔙 Backend Project – Spring Boot
 
 ### 🍽️ Food Delivery App
-A complete Spring Boot app with REST APIs to manage and display dishes.
+A RESTful backend app to manage food dishes.
 
 **Features:**
-- View dishes from the database
-- Clean MVC structure
-- API testing via Postman
+- View dishes from database
+- API testing with Postman
+- Clean MVC architecture
 
 **Tech Stack:**
 - Java, Spring Boot, Spring MVC, JPA
 - H2/MySQL Database
 - Postman
 
-> A beginner-friendly backend project showcasing API creation and testing.
+---
+
