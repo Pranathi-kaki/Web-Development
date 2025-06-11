@@ -1,0 +1,15 @@
+<h1 id="dish_name">Dish Name</h1>
+<script>
+    let dish = {};
+    fetch('http://localhost:8080/api/dish/1')
+    .then(response => response.text())
+    .then(data=>{
+       dish = JSON.parse(data)
+       console.log(typeof(data));
+       console.log(typeof(dish));
+       document.getElementById("dish_name").innerHTML = dish.name;
+    })
+    .catch(error=>{
+        console.log("Error fectching data: "+error);
+    })
+</script>
