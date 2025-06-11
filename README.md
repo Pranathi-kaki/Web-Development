@@ -59,3 +59,21 @@ A RESTful backend app to manage food dishes.
 
 ---
 
+### 🗂️ Event Registration System – "TECH GALAXY"
+
+A Java-based console application for managing event registrations with full **CRUD operations** using JDBC and MySQL.
+
+#### ✅ Features:
+- Register new participants
+- Update participant details (college, event, name, email, etc.)
+- Delete existing records
+- Data stored and retrieved from MySQL
+
+#### 🛠️ Tech Stack:
+- Java (Core)
+- JDBC
+- MySQL Database
+
+> This CLI-based application demonstrates how to perform database operations using Java, ideal for understanding JDBC, SQL, and backend logic without a UI.
+
+
