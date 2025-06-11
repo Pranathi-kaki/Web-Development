@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.cursor{
+    cursor: pointer;
+}
+.margin_top{
+    margin-top: 4vw;
+}
+.grey{
+    color: grey;
+    font-size: 15px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.background{
+    background-color: white;
+}
+.fontsize li a{
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+}
+.margin-left{
+    margin-left:3vw;
+}
+.fontsize h4{
+    color: rgb(231, 29, 29);
+    margin-top: 1vw;
+}
