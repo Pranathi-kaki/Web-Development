@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping for Women, Men, Kids Fashion &amp; Lifestyle - Myntra</title>
+</head>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/utils.css">
+<link rel="icon" type="image/png"
+    href="data:image/png;base64,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"
+    sizes="64x64">
+<script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+
+<body>
+    <header class="containerHeader">
+        <nav class="flex space-between">
+            <div class="left flex">
+                <img src="./images/myntra logo.jpg">
+                <ul class="flex cursor" style="margin-top: 10px;">
+
+                    <li class="men">
+                        MEN
+                   <div class="menu-item ">
+                        <div class=" dropdown background flex fontsize" >
+                            <div>
+                            <h4>Topwear</h4>
+                            <ul>
+                                <li><a href="#">T-Shirts</a></li>
+                                <li><a href="#">Casual Shirts</a></li>
+                                <li><a href="#">Formal Shirts</a></li>
+                                <li><a href="#">Sweatshirts</a></li>
+                                <li><a href="#">Sweater</a></li>
+                                <li><a href="#">Jackets</a></li>
+                                <li><a href="#">Blazers & coats</a></li>
+                                <li><a href="#">Suits</a></li>
+                                <li><a href="#">Rain jackets</a></li>
+                            </ul>
+                            <hr>
+                            <h4>Indian & Festive Wear</h4>
+                            <ul>
+                                <li><a href="#">Kurtas & Kurta sets</a></li>
+                                <li><a href="#">Sherwanis</a></li>
+                                <li><a href="#">Nehru Jackets</a></li>
+                                <li><a href="#">Dhotis</a></li>
+                            </ul>
+                        </div >
+
+                        <div class="margin-left">
+                            <h4>BottomWear</h4>
+                            <ul >
+                                <li><a href="#">Jeans</a></li>
+                                <li><a href="#">Casual Trousers</a></li>
+                                <li><a href="#">Nehru Jackets</a></li>
+                                <li><a href="#">Dhotis</a></li>
+                            </ul>
+                            <hr>
+                            <h4>Innerwear & SleepWear</h4>
+                            <ul>
+                                <li><a href="#">Beifs & Truncks</a></li>
+                                <li><a href="#">Boxers</a></li>
+                                <li><a href="#">Vests</a></li>
+                                <li><a href="#">Sleepwear & Loungewear</a></li>
+                                <li><a href="#">Thermals</a></li>
+                            </ul>
+                            <hr>
+                            <h4>Plus Size</h4>
+                        </div>
+
+                        <div class="margin-left ">
+                        <h4>Footwear</h4>
+                            <ul >
+                                <li><a href="#">Casual Shoes</a></li>
+                                <li><a href="#">Sports Shoes</a></li>
+                                <li><a href="#">Formal Shoes</a></li>
+                                <li><a href="#">Sneakers</a></li>
+                                <li><a href="#">Sandals & Floaters</a></li>
+                                <li><a href="#">Flip Flops</a></li>
+                                <li><a href="#">Socks</a></li>
+                            </ul>
+                            <hr>
+                            <h4>Personal Care & Grooming</h4> <br>
+                            <h4>Sunglasses & Frames</h4><br>
+                            <h4>Watches</h4>
+                        </div>
+
+                        <div class="margin-left ">
+                            <h4>Sports & Active Wear</h4>
+                                <ul >
+                                    <li><a href="#">Sports Shoes</a></li>
+                                    <li><a href="#">Sports Sandals</a></li>
+                                    <li><a href="#">Active T-Shirts</a></li>
+                                    <li><a href="#">Track Pants & Shorts</a></li>
+                                    <li><a href="#">Tracksuit</a></li>
+                                    <li><a href="#">Jackets & Sweatshirts</a></li>
+                                    <li><a href="#">Sports Accessories</a></li>
+                                    <li><a href="#">Swimwear</a></li>
+                                </ul>
+                                <hr>
+                            <h4>Gadgets</h4>
+                                <ul>
+                                    <li><a href="#">Smart Wearables</a></li>
+                                    <li><a href="#">Fitness Gadgets</a></li>
+                                    <li><a href="#">Headphones</a></li>
+                                    <li><a href="#">Speakers</a></li>
+                                </ul>
+                        </div>
+
+                        <div class="margin-left ">
+                            <h4>Fashion Accessories</h4>
+                                <ul >
+                                    <li><a href="#">Wallets</a></li>
+                                    <li><a href="#">Belts</a></li>
+                                    <li><a href="#">Perfumes & Body Mists</a></li>
+                                    <li><a href="#">Trimmers</a></li>
+                                    <li><a href="#">Deodorants</a></li>
+                                    <li><a href="#">Ties, Cufflinks & pocket Squares</a></li>
+                                    <li><a href="#">Accessory Gift Sets</a></li>
+                                    <li><a href="#">Caps & Hats</a></li>
+                                    <li><a href="#">Mufflers, Scarves & Gloves</a></li>
+                                    <li><a href="#">Phone Cases</a></li>
+                                    <li><a href="#">Rings & Wristwear</a></li>
+                                    <li><a href="#">Helmets</a></li>
+                                </ul>
+                                <hr>
+                            <h4>Bags & Backpacks</h4><br>
+                            <h4>Luggages & Trolleys</h4>
+                                
+                        </div>
+                    </div> 
+                </div>                 
+                    </li>
+
+                    <li>
+                        WOMEN
+                        <div class="menu-item ">
+                            <div class=" dropdown background flex fontsize" >
+                                <div>
+                                <h4  style="color:  #fb56c1;">Indian & Fusion Wear</h4>
+                                <ul>
+                                    <li><a href="#">kurtas & Suits</a></li>
+                                    <li><a href="#">Kurtis, Tunics & Tops</a></li>
+                                    <li><a href="#">sarees</a></li>
+                                    <li><a href="#">Ethnic Wear</a></li>
+                                    <li><a href="#">Leggings, Salwars & Churidars</a></li>
+                                    <li><a href="#">Skrits & Palazzos</a></li>
+                                    <li><a href="#">Dress Materials</a></li>
+                                    <li><a href="#">Lehanga Cholis</a></li>
+                                    <li><a href="#">Dupattas & Shawls</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                </ul>
+                                <hr>
+                                <h4 style="color:  #fb56c1;">Belts, Scarves & More</h4><br>
+                                <h4 style="color:  #fb56c1;">Watches & Wearables</h4>
+                               
+                            </div >
+    
+                            <div class="margin-left">
+                                <h4 style="color:  #fb56c1;">Western Wear</h4>
+                                <ul >
+                                    <li><a href="#">Dresses</a></li>
+                                    <li><a href="#">Tops</a></li>
+                                    <li><a href="#">Tshirts</a></li>
+                                    <li><a href="#">Jeans</a></li>
+                                    <li><a href="#">Trousers & Capris</a></li>
+                                    <li><a href="#">Shorts & Skrits</a></li>
+                                    <li><a href="#">Co-ords</a></li>
+                                    <li><a href="#">Playsuits</a></li>
+                                    <li><a href="#">Jumpsuits</a></li>
+                                    <li><a href="#">Shrugs</a></li>
+                                    <li><a href="#">Sweaters & Sweatshirts</a></li>
+                                    <li><a href="#">Jackets & Coats</a></li>
+                                    <li><a href="#">Blazers & Waistcoats</a></li>
+                                </ul>
+                                <h4 style="color:  #fb56c1;">Plus Size</h4>
+                                
+                            </div>
+    
+                            <div class="margin-left ">
+                            <h4 style="color:  #fb56c1;">Maternity</h4><br>
+                            <h4 style="color:  #fb56c1;">Sunglasses & Frames</h4><br>
+                            <h4 style="color:  #fb56c1;">Footwear</h4>
+                                <ul >
+                                    <li><a href="#">Flats</a></li>
+                                    <li><a href="#">Casual Shoes</a></li>
+                                    <li><a href="#">Heels</a></li>
+                                    <li><a href="#">Boots</a></li>
+                                    <li><a href="#">Sports Shoes & Floaters</a></li>
+                                </ul>
+                                <hr>
+                                <h4 style="color:  #fb56c1;">Sports & Active Wear</h4>
+                                    <ul >
+                                        <li><a href="#">Clothing</a></li>
+                                        <li><a href="#">Footwear</a></li>
+                                        <li><a href="#">Sports Accessories</a></li>
+                                        <li><a href="#">Sports Equipment</a></li>
+                                       
+                                    </ul>
+                               
+                            </div>
+    
+                            <div class="margin-left ">
+                                <h4 style="color:  #fb56c1;">Lingerie & Sleepwear</h4>
+                                    <ul >
+                                        <li><a href="#">Bra</a></li>
+                                        <li><a href="#">Briefs</a></li>
+                                        <li><a href="#">Shapewear</a></li>
+                                        <li><a href="#">Sleepwear & Loungewear</a></li>
+                                        <li><a href="#">Swimwear</a></li>
+                                        <li><a href="#">Camisoles & Thermals</a></li>
+                                        
+                                    </ul>
+                                    <hr>
+                                <h4 style="color:  #fb56c1;">Beauty & Personal Care</h4>
+                                    <ul>
+                                        <li><a href="#">Makeup</a></li>
+                                        <li><a href="#">Skincare</a></li>
+                                        <li><a href="#">Premium Beauty</a></li>
+                                        <li><a href="#">Lipsticks</a></li>
+                                        <li><a href="#">Fragrances</a></li>
+                                    </ul>
+                            </div>
+    
+                            <div class="margin-left ">
+                                <h4 style="color:  #fb56c1;">Gadgets</h4>
+                                    <ul >
+                                        <li><a href="#">Smart Wearables</a></li>
+                                        <li><a href="#">Fitness Gadgets</a></li>
+                                        <li><a href="#">Headphones</a></li>
+                                        <li><a href="#">Speakers</a></li>
+                                    </ul>
+                                    <hr>
+                                <h4 style="color:  #fb56c1;">Jewellery</h4><br>
+                                <ul >
+                                    <li><a href="#">Fashion Jewellery</a></li>
+                                    <li><a href="#">Fine Jewellery</a></li>
+                                    <li><a href="#">Earrings</a></li>
+                                    
+
+                                <h4 style="color:  #fb56c1;">Backpacks</h4>
+                                <h4 style="color:  #fb56c1;">Handbags, Bags & Wallets</h4>
+                                <h4 style="color:  #fb56c1;">Luggages & Trolleys</h4>
+                                    
+                            </div>
+                        </div> 
+                    </div>  
+                    </li>
+
+                    <li>
+                        KIDS
+                        <div class="menu-item ">
+                            <div class=" dropdown background flex fontsize">
+                                <div>
+                                <h4 style="color: #f26a10;">Boys Clothing</h4>
+                                <ul>
+                                    <li><a href="#">T-Shirts</a></li>
+                                    <li><a href="#">Shirts</a></li>
+                                    <li><a href="#"> Shorts</a></li>
+                                    <li><a href="#">Jeans</a></li>
+                                    <li><a href="#">Trousers</a></li>
+                                    <li><a href="#">Clothing Sets</a></li>
+                                    <li><a href="#">Ethenic Wear</a></li>
+                                    <li><a href="#">Tracks Pants & Pyjamas</a></li>
+                                    <li><a href="#">Jacket, Sweater & Sweatshirts</a></li>
+                                  <li><a href="#">PartyWear</a></li>
+                                  <li><a href="#">Innerwear & Thermals</a></li>
+                                  <li><a href="#">Nightwear & Loungewear</a></li>
+                                  <li><a href="#">Value Packs</a></li>
+                                </ul>
+                            </div >
+    
+                            <div class="margin-left">
+                                <h4 style="color: #f26a10;">Girls Clothing</h4>
+                                <ul >
+                                    <li><a href="#">Dresses</a></li>
+                                    <li><a href="#">Tops</a></li>
+                                    <li><a href="#">T-shirts</a></li>
+                                    <li><a href="#">Clothing Sets</a></li>
+                                   <li><a href="#">Lehanga choli</a></li>
+                                   <li><a href="#">kurta set</a></li>
+                                   <li><a href="#">Party wear</a></li>
+                                   <li><a href="#">Dungarees & Jumpsuits</a></li>
+                                  <li><a href="#">Skirts & Shorts</a></li>
+                                   <li><a href="#">Tights & Leggings</a></li>
+                                   <li><a href="#">Jeans,Trousers & Capris</a></li>
+                                   <li><a href="#">Jacket, Sweater & Sweatshirt</a></li>
+                                   <li><a href="#">Innerwear & Thermals</a></li>
+                                   <li><a href="#">Nightwear & Loungewear</a></li>
+                                   <li><a href="#">Value Packs</a></li>
+                                </ul>
+                                
+                            </div>
+    
+                            <div class="margin-left ">
+                            <h4 style="color: #f26a10;">Footwear</h4>
+                                <ul >
+                                    <li><a href="#">Casual Shoes</a></li>
+                                    <li><a href="#">Sports Shoes</a></li>
+                                    <li><a href="#">School Shoes</a></li>
+                                    <li><a href="#">Flats</a></li>
+                                    <li><a href="#">Heels</a></li>
+                                    <li><a href="#">Sandals</a></li>
+                                    <li><a href="#">Flip Flops</a></li>
+                                    <li><a href="#">Socks</a></li>
+                                </ul>
+                                <hr>
+                                <h4 style="color: #f26a10;">Toys & Games</h4> <br>
+                                <ul >
+                                        <li><a href="#">Learning & Development</a></li>
+                                        <li><a href="#">Activity Toys</a></li>
+                                        <li><a href="#">Soft Toys</a></li>
+                                        <li><a href="#">Action Figure/Play set</a></li>
+                                        
+                                    </ul>
+                            </div>
+    
+                            <div class="margin-left ">
+                                <h4 style="color: #f26a10;">Infants</h4>
+                                    <ul >
+                                        <li><a href="#">Bodysuits</a></li>
+                                        <li><a href="#">Rompers & Sleepsuits </a></li>
+                                        <li><a href="#">Clothing Sets</a></li>
+                                        <li><a href="#">T-shirts & Tops</a></li>
+                                        <li><a href="#">Dresses</a></li>
+                                        <li><a href="#">Bottom wear</a></li>
+                                        <li><a href="#">Winter wear</a></li>
+                                        <li><a href="#">Innerwear & Sleepwear</a></li>
+                                        <li><a href="#">Infant Care</a></li>
+                                    </ul>
+                                    <hr>
+                                <h4 style="color: #f26a10;">Home & Bath</h4>
+                                <h4 style="color: #f26a10;">Personal Care</h4>
+                                   
+                            </div>
+    
+                            <div class="margin-left ">
+                                <h4 style="color: #f26a10;">Kids Accessories</h4>
+                                    <ul >
+                                        <li><a href="#">Bags & Backpacks</a></li>
+                                        <li><a href="#">Watches</a></li>
+                                        <li><a href="#">Jewellery</a></li>
+                                        <li><a href="#">Sunglasses</a></li>
+                                        <li><a href="#">Masks & Protective Gears</a></li>
+                                        <li><a href="#">Caps & Hats</a></li>
+                                    </ul>
+                                    <hr>
+                                <h4 style="color: #f26a10;">Brands</h4><br>
+                                <ul >
+                                    <li><a href="#">H&M</a></li>
+                                    <li><a href="#">Max Kids</a></li>
+                                    <li><a href="#">Pantaloons</a></li>
+                                    <li><a href="#">United Colors of Benetton</a></li>
+                                    <li><a href="#">YK</a></li>
+                                    <li><a href="#">U.S.Polo Assn.Kids</a></li>
+                                    <li><a href="#">Mothercare</a></li>
+                                    <li><a href="#">HRX</a></li>
+                                </ul>
+                               
+                                    
+                            </div>
+                        </div> 
+                    </div>
+                    </li>
+                    <li>
+                        HOME & LIVING
+                        <div class="menu-item ">
+                            <div class=" dropdown background flex fontsize">
+                                <div>
+                                <h4 style="color:  #f2c210;">Bed Linen & Furnishing</h4>
+                                <ul>
+                                    <li><a href="#">Bed Runner</a></li>
+                                    <li><a href="#">Mattress Protectors</a></li>
+                                    <li><a href="#"> Bedsheets</a></li>
+                                    <li><a href="#">Bedding Sets</a></li>
+                                    <li><a href="#">Blankets, Quilts & Dohars</a></li>
+                                    <li><a href="#"> Pillows & Pillow Covers</a></li>
+                                    <li><a href="#">Bed Covers </a></li>
+                                    <li><a href="#"> Diwan Sets</a></li>
+                                    <li><a href="#">Chair Pads & Covers</a></li>
+                                  <li><a href="#">Sofa Covers</a></li>
+                                  
+                                </ul>
+                                  <h4 style="color:  #f2c210;">Flooring</h4>
+                                <ul>
+                                    <li><a href="#">Floor Runner</a></li>
+                                    <li><a href="#">Carpets</a></li>
+                                    <li><a href="#"> FloorMats & Dhurries</a></li>
+                                    <li><a href="#">Door Mats</a></li>
+                                   </ul>
+                            </div >
+    
+                            <div class="margin-left">
+                                <h4 style="color:  #f2c210;">Bath</h4>
+                                <ul >
+                                    <li><a href="#">Bath Towels</a></li>
+                                    <li><a href="#">hand Towels</a></li>
+                                    <li><a href="#">Beach Towels</a></li>
+                                    <li><a href="#">Towels Sets</a></li>
+                                   <li><a href="#">Bath Rugs</a></li>
+                                   <li><a href="#">Bath Robes</a></li>
+                                   <li><a href="#">Shower Curtains </a></li>
+                                   <li><a href="#">Bathroom Accessories </a></li>
+                                </ul>
+                                <h4 style="color:  #f2c210;">Lamps & Lighting</h4>
+                                <ul >
+                                    <li><a href="#"> Floor Lamps</a></li>
+                                    <li><a href="#">Ceiling Lamps </a></li>
+                                    <li><a href="#"> Table Lamps</a></li>
+                                    <li><a href="#">Wall Lamps</a></li>
+                                    <li><a href="#">Outdoor Lamps</a></li>
+                                    <li><a href="#">String Lights</a></li>
+                                </ul>
+                            </div>
+    
+                            <div class="margin-left ">
+                            
+                                <hr>
+                                <h4 style="color:  #f2c210;">Home Decor</h4> <br>
+                                <ul >
+                                        <li><a href="#">Plants & Planters</a></li>
+                                        <li><a href="#">Aromas & Candles</a></li>
+                                        <li><a href="#">Clocks</a></li>
+                                        <li><a href="#">Mirrors</a></li>
+                                        <li><a href="#">Wall Decor</a></li>
+                                        <li><a href="#">Festive Decor</a></li>
+                                        <li><a href="#">Pooja Essentials</a></li>
+                                        <li><a href="#">Wall Shelves</a></li>
+                                        <li><a href="#">Fountains</a></li>
+                                        <li><a href="#">Shoepieces & Vases</a></li>
+                                        <li><a href="#">Ottoman</a></li>
+                                        
+                                    </ul>
+                                    <hr>
+                                    <h4 style="color:  #f2c210;">Cushions & Cushion Covers</h4>
+                                    <h4 style="color:  #f2c210;">Curtains</h4>
+                            </div>
+    
+                            <div class="margin-left ">
+                                <h4 style="color:  #f2c210;">Home Gift sets</h4><br>
+
+                                <h4 style="color:  #f2c210;">Kitchen & Table</h4>
+                                    <ul >
+                                        <li><a href="#">Table Runners</a></li>
+                                        <li><a href="#">Dinnerware & Serveware</a></li>
+                                        <li><a href="#">Cups and Mugs</a></li>
+                                        <li><a href="#">Bakeware & Cookware</a></li>
+                                        <li><a href="#">Kitchen Storage & Tools</a></li>
+                                        <li><a href="#">Bar & Drinkware</a></li>
+                                        <li><a href="#">Table Covers & Furnishigs</a></li>
+                                        
+                                    </ul>
+                                    <hr>
+                                <h4 style="color:  #f2c210;">Storage</h4>
+                                    <ul>
+                                        <li><a href="#">Bins</a></li>
+                                        <li><a href="#">Hangers</a></li>
+                                        <li><a href="#">Organisers</a></li>
+                                        <li><a href="#">Hooks & Holders</a></li>
+                                        <li><a href="#">Laundary Bage</a></li>
+                                    </ul>
+                            </div>
+    
+                            <div class="margin-left ">
+                                <h4 style="color:  #f2c210;">Brands</h4>
+                                    <ul >
+                                        <li><a href="#">H&M</a></li>
+                                        <li><a href="#">Marks&Spencer</a></li>
+                                        <li><a href="#">Home Centre</a></li>
+                                        <li><a href="#">Spaces</a></li>
+                                        <li><a href="#">D'Decor</a></li>
+                                        <li><a href="#">Story@Home</a></li>
+                                        <li><a href="#">Pure home & Living</a></li>
+                                        <li><a href="#">Swayam</a></li>
+                                        <li><a href="#">Raymond Home</a></li>
+                                        <li><a href="#">Maspar</a></li>
+                                        <li><a href="#">My Trident</a></li>
+                                        <li><a href="#">Cortina</a></li>
+                                        <li><a href="#">Random</a></li>
+                                        <li><a href="#">Ellementry</a></li>
+                                        <li><a href="#">ROMEE</a></li>
+                                        <li><a href="#">SEJ by Nisha Gupta</a></li>
+                                    </ul>
+                                    <hr>
+                                
+                                    
+                            </div>
+                        </div> 
+                    </div>
+                    </li>
+                    <li>
+                        BEAUTY
+                        <div class="menu-item " >
+                            <div class=" dropdown background flex fontsize" >
+                                <div>
+                                <h4 style="color: #0db7af;">Makeup </h4>
+                                <ul>
+                                    <li><a href="#">Lip Stick</a></li>
+                                    <li><a href="#"> Lip Gloss</a></li>
+                                    <li><a href="#"> Lip Liner</a></li>
+                                    <li><a href="#"> Mascara</a></li>
+                                    <li><a href="#">Eye Liner</a></li>
+                                    <li><a href="#"> Kajal</a></li>
+                                    <li><a href="#">Eye shadow </a></li>
+                                    <li><a href="#">  Foundation</a></li>
+                                    <li><a href="#">Primer</a></li>
+                                  <li><a href="#">Concealer</a></li>
+                                  <li><a href="#">Compact</a></li>
+                                  <li><a href="#">Nail Polish</a></li>
+                                  </ul>
+                            </div >
+    
+                            <div class="margin-left">
+                                <h4 style="color: #0db7af;">Skin care, Bath & Body</h4>
+                                <ul >
+                                    <li><a href="#"> Face Moisture</a></li>
+                                    <li><a href="#"> Cleanser </a></li>
+                                    <li><a href="#">Masks & Peals</a></li>
+                                    <li><a href="#"> Sunscreen</a></li>
+                                   <li><a href="#">Serum </a></li>
+                                   <li><a href="#">Face Wash </a></li>
+                                   <li><a href="#"> Eye Cream</a></li>
+                                   <li><a href="#">Lip Balm </a></li>
+                                  <li><a href="#">Body Lotion </a></li>
+                                  <li><a href="#">Body Wash </a></li>
+                                  <li><a href="#">Body Srucb </a></li>
+                                  <li><a href="#">Hand Cream</a></li>
+                                </ul>
+                              <hr>
+                               <h4 style="color: #0db7af;">Bady Care</h4>
+                                <br>
+                                 <h4 style="color: #0db7af;">Masks</h4>
+                            </div>
+                              
+                                  
+                                  <div class="margin-left">
+                                <h4 style="color: #0db7af;">Hair care</h4>
+                                <ul >
+                                    <li><a href="#"> Shampoo </a></li>
+                                    <li><a href="#"> Conditioner </a></li>
+                                    <li><a href="#">Hair Cream</a></li>
+                                   <li><a href="#">Hair Gel </a></li>
+                                   <li><a href="#">Hair Color </a></li>
+                                   <li><a href="#"> Hair Serum</a></li>
+                                   <li><a href="#">Hair Accessories </a></li>
+                                  <li><a href="#">Body Lotion </a></li>
+                                  <li><a href="#">Body Wash </a></li>
+                                  <li><a href="#">Body Srucb </a></li>
+                                  <li><a href="#">Hand Cream</a></li>
+                                </ul>
+                                      <hr>
+                                  <h4 style="color: #0db7af;">Fragrance </h4>
+                                <ul >
+                                    <li><a href="#"> Perfume </a></li>
+                                    <li><a href="#"> Deodrant </a></li>
+                                    <li><a href="#">Body Mist </a></li>
+                                  </ul>
+                            </div>
+                                      <div class="margin-left">
+                                <h4 style="color: #0db7af;">Applications</h4>
+                                <ul >
+                                    <li><a href="#"> Hair Straightner </a></li>
+                                    <li><a href="#"> Hair Dryer </a></li>
+                                    <li><a href="#">Epilator</a></li>
+                                </ul>
+                              <hr>
+                                <h4 style="color: #0db7af;">Men's Grooming</h4>
+                                <ul >
+                                    <li><a href="#"> Trimmers </a></li>
+                                    <li><a href="#"> Bread oil </a></li>
+                                    <li><a href="#">Hair Wax</a></li>
+                                </ul>
+                                <hr>
+                                  <h4 style="color: #0db7af;">Beauty Gift & Mkeup Set</h4>
+                                <ul >
+                                    <li><a href="#"> Beauty Gift </a></li>
+                                    <li><a href="#"> Mackup Kit </a></li>
+                                </ul>
+                                  <hr>
+                                    <h4 style="color: #0db7af;">Premium Beauty</h4><br>
+                                    <h4 style="color: #0db7af;">Wellness & Hygiene </h4>
+                                    </div>
+                                 <div class="margin-left">
+                                <h4 style="color: #0db7af;">Top Brands</h4>
+                                <ul >
+                                    <li><a href="#"> Lakme</a></li>
+                                    <li><a href="#"> Maybelline </a></li>
+                                    <li><a href="#">LOreal</a></li>
+                                    <li><a href="#">Philips</a></li>
+                                   <li><a href="#">Bath & Body Works </a></li>
+                                   <li><a href="#">THE BODY SHOP </a></li>
+                                   <li><a href="#">Biotique</a></li>
+                                   <li><a href="#">Mamaearth </a></li>
+                                  <li><a href="#">MCaffeine </a></li>
+                                  <li><a href="#">Nivea </a></li>
+                                  <li><a href="#">Lotus Herbals </a></li>
+                                  <li><a href="#">Loreal Professionnel</a></li>
+                                  <li><a href="#">KAMA AYURVEDA</a></li>
+                                  <li><a href="#">M.A.C</a></li>
+                                  <li><a href="#">Forest Essentials</a></li>
+                                </ul>
+                              
+                            </div>
+                              
+                               
+                            </div>
+                    </li>
+                    <li>STUDIO</li>
+                </ul>
+            </div>
+            <div class="right flex cursor">
+                <img src="./images/search img.png" class="search">
+                <input class="textbox" type="text" placeholder="Search for products, brands and more">
+                <img src="./images/profile img.png" height="41px" style="margin-left: 20px;">
+                <img src="./images/wishlist img.png" height="43px">
+                <img src="./images/bag img.png" height="40px" style="margin-right: -27px;">
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <img src="./images/homeimg.png" class="container section1" style="margin-top: 4vw;">
+    </section>
+
+    <div class="slider">
+        <section class="container section flex">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/KFOG26Mc_b992c7d8997646d38ee7589ec402942c.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/q27kaNys_9c56e59c691d415ca6519bad90a8033a.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/Th9oyOeM_6855833aca5c4963aa6fa7dc29092e61.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/NTQLpQTg_2acb0b8d166544ee898e577243e515aa.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/0vnC1W2g_833f191b453442bea38da9358d125dd4.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/Yw2xGqDJ_f6d5689aee3242f5a7fb258de22891c6.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/vveT3zzE_a9a36e04e5cb40c1ab4afcb488a8270e.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/e50667c2-0eb5-4049-a164-c4dec76e982b1732962017308-image_png_388650711.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/SlDlbFjk_f104d277e7fc4c868ee940e6cc142098.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/8d7039ff-6c12-479d-b36c-38db4828e3671732962031768-image_png_1514718320.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/e9fc20d9-fac3-4d71-a7c8-4c65d2e34fb31732962046875-image_png_347519495.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/85c2f7bf-f2f9-499d-8b9b-c6c68e0618dd1732962064018-image_png1924532923.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/56fjmOHX_122eac5297d948769c2c8a389a54dd53.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/bae773f1-dcf3-408b-92d8-0b2f925c91101732962080716-image_png2003655424.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/hWbBR0mP_21f736983b8c40f0b78d300f5dde3ea8.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/k6cn7SXy_7d6f7ea2dc1e4f3a9e31d4e8fffbeb38.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/BLQkAo0a_4b1bf15486c446f4b33effdddd58c04c.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/f8JKoJda_2eb6c7ed33d342f5901339710b585ccf.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/P0I71HtX_b79b0c39060341459905a3d3013cfb63.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/NOVEMBER/28/0lcoGvET_b3adc506f1274b5a9c33bd7e70d764e9.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/12/3/3a44e18f-a002-40c7-b17d-8a37e141c60d1733204819665-image_png2125813109.png">
+        </section>
+    </div>
+    <div class="img-discount">
+        <img src="./images/img2.webp" class="container section1">
+    </div>
+    <div class="slider" style="gap: -10px;">
+        <section class="container section flex">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/12/3/6430c9d1-5f31-4935-a4f4-e3176f7c5b901733215793135-image_png_776530001.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/12/3/e3e35a8d-0609-45a1-9195-4f0d335634e01733215814997-image_png_1022741982.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/12/3/81a2428a-43d5-413d-8ca8-ad5b47e733cf1733215867165-image_png_17802928.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/12/3/ac93bc6f-2bc5-4645-ba77-67585be2eb9e1733215837778-image_png_1522043197.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/1d4dc3dd-9a29-44db-9294-0b68e406c9441732957940929-image_png781733455.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/b105a08a-5244-4e9a-88aa-2e315c9ec9bd1732957973349-image_png840374544.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/4f142b8f-fba8-4527-bbd3-ad7d7300d34a1732957987523-image_png2115111700.png">
+
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/b5b95158-3327-4168-b8ae-56875c0940001732958001489-image_png_300721261.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/4ac17db5-cdde-4164-a5d0-30994c2731421732958014877-image_png_339140005.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/15bbac46-ba63-4e70-b7cc-8d63af4538c11732958028451-image_png_1315926905.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/83779e69-2a83-4279-94e3-36c57431d14f1732958042585-image_png_1637431020.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/fb9c55a9-ea29-445a-8334-b596061076be1732958056626-image_png_278369319.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/4206adbf-abdf-40b6-982c-03408a96e61b1732958070723-image_png2138903804.png">
+            <img
+                src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/3d0ccce9-7b12-4ae3-a9ca-0ba946fd336f1732958084916-image_png_942822789.png">
+
+            <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/91099c62-46d2-40eb-b555-6c4385a111f21732958097647-image_png_939283020.png"
+                alt="">
+            <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/bea0cdc8-9a3c-4107-b383-b3ac382f78fc1732958116832-image_png_771621111.png"
+                alt="">
+            <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/38e10ca3-7437-46ce-93f5-6f6fcdf925531732958131382-image_png1655378510.png"
+                alt="">
+            <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/f97e4e8e-8bbb-422c-b3d8-a432bc2be9a11732958145985-image_png_1915885908.png"
+                alt="">
+            <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/3f0737da-c83e-4d83-b4bf-c6a9e2aee3fc1732958163152-image_png1289298715.png"
+                alt="">
+            <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/11/30/0bb997a5-ec6f-4c30-90ce-31c75e0eb6cf1732958177252-image_png_1118084108.png"
+                alt="">
+            <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2024/12/3/857e2ff9-ddcf-43b6-81b4-a2d6c80705e71733215768738-image_png_28724963.png"
+                alt="">
+        </section>
+    </div>
+    <div class="img-discount">
+        <img src="./images/img3.webp" class="container section1">
+    </div>
+    <div class="flex flex-wrap container">
+        <section class="images">
+            <!-- 3 4 8,9 13 18 22 23 27 28 29 30 -->
+            <!-- <img class="" src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/hth991PG_c1a5d8d8de8e46f3b3088f6710979bf6.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/VYbsn63i_50c6efbb8e3b45ff9ba78c6d22589f6e.jpg"> -->
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/xt3Pbjno_b5dc284221244c99a749cbecd50677db.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/LNegM5Qw_54583ba340804cdd9851fd752a42ed86.jpg">
+            <!-- <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/Pq6gLPDP_c7090a344a5d41b2872448d8beb9ceb7.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/QnpUECEK_1260fb1720fa4f5db77c2df1a6108148.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/fJzaQbvn_ca8b2c3453be459386ed89959c910802.jpg"> -->
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/lLtVYFIT_83c1a3698fdf4dc8a2db00299bd9134e.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/diYEeXIW_693e4fe9287541d5802a168921e1ec5d.jpg">
+            <!-- <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/ePawB3v7_56a5c67fa7b04bdbb13dd35239a8f4fb.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/6q8WRXBA_929fe0ca16df41e79c1b15eff8c52d32.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/7HwzOCHa_97c09daf281f4bd59b3a020e499ebfe2.jpg"> -->
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/56G90xOM_0259569412dc450ebf25ff7cbf24e5f1.jpg">
+            <!-- <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/1CS6u6Jl_0dd9a39506b94882ab63ea3f75a4526d.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/cg3UzLxt_12494005be6c4a83afa64b52aa5ea8e3.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/XtdKGogd_891b125f50ca4af0b342cf4f39d4a3be.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/5tcctZUK_04bf8c26e533457ea6d92a764dd3800e.jpg"> -->
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/vP1Gm1t8_46194c8e06ac43a584e6c1eb8a6c6e02.jpg">
+            <!-- <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/RvxKnqDl_b37f126f41314dc7bd36c37f1c73efe5.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/zy5zR8Cs_8819d007829241d493f49601058dbd49.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/l1G9nh0x_6d9801fd1b3347b298571d8c05b95a35.jpg"> -->
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/uI9Nrq4l_e18a090dca254b7b909bff977793b0dd.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/Qq65zjWg_4115f1cd2b2142819da8fd8b06a96991.jpg">
+            <!-- <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/TbS1EdvN_08c11df8df1c45ac99179ffdb38019ff.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/nD4HPEot_79d6c3ae0cbc46b296645990e94e664f.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/xRWFT2H7_6ff48caab89c4711a48618f18aec1863.jpg"> -->
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/9yYOgoac_ca2eecdbfacf48fb99e23f85f92f4ade.jpg">
+            <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/DECEMBER/4/osTGPUnc_146cf0dc50b54812a5522577727ffe0d.jpg">
+        </section>
+    </div>
+    <footer class="myntra-footer">
+        <div class="footer-sections">
+            <!-- Online Shopping Section -->
+            <div class="footer-column">
+                <p class="footer-title">ONLINE SHOPPING</p>
+                <ul>
+                    <li> <a href="/shop/men">Men</a></li>
+                    <li><a href="/shop/women">Women</a></li>
+                    <li><a href="/shop/kids">Kids</a></li>
+                    <li><a href="/shop/home-living">Home & Living</a></li>
+                    <li><a href="/personal-care">Beauty</a></li>
+                    <li><a href="/giftcard">Gift Cards</a></li>
+                    <li><a href="/myntrainsider?cache=false">Myntra Insider</a></li>
+                </ul>
+                <p class="footer-title">USEFUL LINKS</p>
+                <ul>
+                    <li><a href="http://blog.myntra.com/">Blog</a></li>
+                    <li><a href="https://careers.myntra.com">Careers</a></li>
+                    <li><a href="/sitemap">Site Map</a></li>
+                    <li><a href="/corp-info">Corporate Information</a></li>
+                    <li><a href="/security/whitehat">Whitehat</a></li>
+                </ul>
+            </div>
+
+            <!-- Customer Policies Section -->
+            <div class="footer-column">
+                <p class="footer-title">CUSTOMER POLICIES</p>
+                <ul>
+                    <li><a href="/contactus">Contact Us</a></li>
+                    <li><a href="/faqs">FAQ</a></li>
+                    <li><a href="/tac">T&amp;C</a></li>
+                    <li><a href="/termsofuse">Terms Of Use</a></li>
+                    <li><a href="/my/orders">Track Orders</a></li>
+                    <li><a href="/faqs#shipping">Shipping</a></li>
+                    <li><a href="/faqs#cancel">Cancellation</a></li>
+                    <li><a href="/faqs#returns">Returns</a></li>
+                    <li><a href="/privacypolicy">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- App Download and Social Media -->
+            <div class="footer-column">
+                <p class="footer-title">EXPERIENCE MYNTRA APP ON MOBILE</p>
+                <div class="app-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.myntra.android">
+                        <img src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
+                            alt="Google Play Store">
+                    </a>
+                    <a href="https://itunes.apple.com/in/app/myntra-indias-fashion-store/id907394059">
+                        <img src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
+                            alt="Apple App Store">
+                    </a>
+                </div>
+                <p class="footer-title">KEEP IN TOUCH</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/myntra">
+                        <img src="https://constant.myntassets.com/web/assets/img/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png"
+                            alt="Facebook" style="height: 30px;">
+                    </a>
+                    <a href="https://twitter.com/myntra">
+                        <img src="https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png"
+                            alt="Twitter" style="height: 30px;">
+                    </a>
+                    <a href="https://www.youtube.com/user/myntradotcom">
+                        <img src="https://constant.myntassets.com/web/assets/img/a7e3c86e-566a-44a6-a733-179389dd87111574604275355-yt.png"
+                            alt="YouTube" style="height: 30px;">
+                    </a>
+                    <a href="https://www.instagram.com/myntra">
+                        <img src="https://constant.myntassets.com/web/assets/img/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png"
+                            alt="Instagram" style="height: 30px;">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Additional Features -->
+            <div class="footer-column">
+                <div class="guarantee">
+                    <img src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
+                        alt="100% Original">
+                    <p><strong>100% ORIGINAL</strong> guarantee for all products at Myntra.com</p>
+                </div>
+                <div class="return-policy">
+                    <img src="https://assets.myntassets.com/assets/images/retaillabs/2023/5/22/becb1b16-86cc-4e78-bdc7-7801c17947831684737106127-Return-Window-image.png"
+                        alt="Return Policy">
+                    <p><strong>Return within 14 days</strong> of receiving your order</p>
+                </div>
+            </div>
+        </div>
+        <div class="popular-searches">
+            <p class="footer-title">POPULAR SEARCHES</p>
+            <p style="color: grey;">
+                Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men | Handbags |
+                Ladies Watches | Bags | Sport Shoes | Reebok Shoes | Puma Shoes | Boxers | Wallets | Tops | Earrings |
+                Fastrack Watches | Kurtis | Nike | Smart Watches | Titan Watches | Designer Blouse | Gowns | Rings |
+                Cricket Shoes | Forever 21 | Eye Makeup | Photo Frames | Punjabi Suits | Bikini | Myntra Fashion Show |
+                Lipstick | Saree | Watches | Dresses | Lehenga | Nike Shoes | Goggles | Bras | Suit | Chinos | Shoes |
+                Adidas Shoes | Woodland Shoes | Jewellery | Designer Sarees
+            </p><br>
+
+        </div>
+
+        <!-- Add Footer Note -->
+        <div class="footer-bottom">
+            <div class="footer-note-content" style="color: grey;">
+                <p class="left">In case of any concern, <a href="#">Contact Us</a></p>
+                <p class="center">© 2024 www.myntra.com. All rights reserved.</p>
+                <p class="right">A Flipkart company</p>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div class="footer-office-address">
+            <div>
+                <p style="font-size: 13px;"><strong>Registered Office Address</strong></p>
+                <br>
+                <p style="color: grey;">Buildings Alyssa,<br>
+                    Begonia and Clover situated in Embassy Tech Village,<br>
+                    Outer Ring Road,<br>
+                    Devarabeesanahalli Village,<br>
+                    Varthur Hobli,<br>
+                    Bengaluru – 560103, India</p>
+                <div style="margin-left: 67vw; color: grey;">
+                    
+                    <p>Telephone: <span style="color: blue;"> +91-80-61561999</span></p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <br>
+            <p style="font-size: 12px;"><strong>ONLINE SHOPPING MADE EASY AT MYNTRA</strong></p>
+            <br>
+        </div>
+        <div class="grey">
+            <p>If you would like to experience the best of online shopping for men, women and kids in India, you are at
+                the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a wide
+                array of merchandise including clothing, footwear, accessories, jewellery, personal care products and
+                more. It is time to redefine your style statement with our treasure-trove of trendy items. Our online
+                store brings you the latest in designer products straight out of fashion houses. You can shop online at
+                Myntra from the comfort of your home and get your favourites delivered right to your doorstep.</p>
+        </div>
+
+        <div>
+            <br>
+            <br>
+            <p style="font-size: 12px;"><strong>BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION</strong></p>
+            <br>
+        </div>
+        <div class="grey">
+            <p>Be it clothing, footwear or accessories, Myntra offers you the ideal combination of fashion and
+                functionality for men, women and kids. You will realise that the sky is the limit when it comes to the
+                types of outfits that you can purchase for different occasions.</p>
+        </div>
+
+        <div>
+            <br>
+            <br>
+            <p style="font-size: 12px;"><strong>MYNTRA APP</strong></p>
+            <br>
+        </div>
+        <div class="grey">
+            <p>Myntra, India’s no. 1 online fashion destination justifies its fashion relevance by bringing something new and chic to the table on the daily. Fashion trends seem to change at lightning speed, yet the Myntra shopping app has managed to keep up without any hiccups. In addition, Myntra has vowed to serve customers to the best of its ability by introducing its first-ever loyalty program, The Myntra Insider. Gain access to priority delivery, early sales, lucrative deals and other special perks on all your shopping with the Myntra app. Download the Myntra app on your Android or IOS device today and experience shopping like never before!</p>
+        </div>
+
+        <div>
+            <br>
+            <br>
+            <p style="font-size: 12px;"><strong>HISTORY OF MYNTRA</strong></p>
+            <br>
+        </div>
+        <div class="grey">
+            <p>Becoming India’s no. 1 fashion destination is not an easy feat. Sincere efforts, digital enhancements and a team of dedicated personnel with an equally loyal customer base have made Myntra the online platform that it is today. The original B2B venture for personalized gifts was conceived in 2007 but transitioned into a full-fledged ecommerce giant within a span of just a few years. By 2012, Myntra had introduced 350 Indian and international brands to its platform, and this has only grown in number each passing year. Today Myntra sits on top of the online fashion game with an astounding social media following, a loyalty program dedicated to its customers, and tempting, hard-to-say-no-to deals.
+<br>
+                The Myntra shopping app came into existence in the year 2015 to further encourage customers’ shopping sprees. Download the app on your Android or IOS device this very minute to experience fashion like never before</p>
+        </div>
+
+        <div>
+            <br>
+
+            <br>
+            <p style="font-size: 12px;"><strong>SHOP ONLINE AT MYNTRA WITH COMPLETE CONVENIENCE</strong></p>
+            <br>
+        </div>
+        <div class="grey">
+            <p>Another reason why Myntra is the best of all online stores is the complete convenience that it offers. You can view your favourite brands with price options for different products in one place. A user-friendly interface will guide you through your selection process. Comprehensive size charts, product information and high-resolution images help you make the best buying decisions. You also have the freedom to choose your payment options, be it card or cash-on-delivery. The 14-day returns policy gives you more power as a buyer. Additionally, the try-and-buy option for select products takes customer-friendliness to the next level.
+<br>
+                Enjoy the hassle-free experience as you shop comfortably from your home or your workplace. You can also shop for your friends, family and loved-ones and avail our gift services for special occasions</p>
+        </div>
+        
+    </footer>
+</body>
+
+</html>
